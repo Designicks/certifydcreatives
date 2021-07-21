@@ -1,0 +1,465 @@
+                @media only screen and (max-width: 1040px) {}
+                
+                @media screen and (max-width: 992px) {
+                    .menu_container {
+                        display: block !important;
+                        padding-right: 1.5rem;
+                    }
+                    li.nav-item:last-child {
+                        margin-bottom: 2rem;
+                    }
+                    ul.navbar-nav li {
+                        display: inline-block;
+                        justify-content: center;
+                    }
+                    .dropdown-menu {
+                        width: 100%;
+                        max-width: 300px;
+                        margin: 0 auto;
+                    }
+                    #ourServices .service_col_content {
+                        padding: 0% 1rem 0px;
+                    }
+                    #ourServices .ourService_outer .service_col_2 {
+                        padding: 0% 1rem;
+                    }
+                    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active,
+                    #seeMoreWork #v-pills-tab_seeMoreWork .show>.nav-link {
+                        width: unset;
+                        max-width: unset;
+                    }
+                    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active:after {
+                        content: '';
+                        position: absolute;
+                        bottom: -20px;
+                        top: 100%;
+                        right: auto;
+                        left: 40%;
+                        border-top: 14px solid #fa09a7;
+                        border-left: 14px solid transparent;
+                        border-right: 14px solid transparent;
+                        height: 20px;
+                    }
+                    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link {
+                        text-align: center;
+                    }
+                    /* //Portfolio Page */
+                    #Brands.portfolio_categorized ul#pills-tab_PC {
+                        padding: 0rem 0;
+                    }
+                    .featuredUI {
+                        padding: 0.5rem 0;
+                    }
+                    /* //Portfolio Page */
+                    /* //Contact us Page */
+                    .contact_us_social_icon.qrcode_box {
+                        min-height: 102px;
+                    }
+                    .contact_us_social_icon .flip-box-back.qrcode_back {
+                        padding: 10px;
+                    }
+                    .contact_us_social_icon .flip-box-back.qrcode_back img.WAqrcode {
+                        max-width: 90px;
+                    }
+                    /* //Contact us Page */
+                    /* //Inner Services Page */
+                    #exlporeServices .expSbox3 {
+                        padding: 0 0 0 0rem;
+                    }
+                    /* //Inner Services Page */
+                }
+                
+                @media only screen and (max-width: 768px) {
+                    #seeMoreWork .quality_head h2 {
+                        width: 100%;
+                    }
+                    #Banner {
+                        padding-top: 45px;
+                    }
+                    #Banner .banner_inner p.banner_inner_parah {
+                        padding: 18px 0px 0px 0px;
+                    }
+                    .header_getdemo {
+                        margin-right: 0px;
+                    }
+                    .btn_getfreedemo {
+                        padding: 10px 10px;
+                    }
+                    #ExperienceTrue .expTrue_head .dashed_line01 {
+                        right: -20px;
+                        top: -20px;
+                    }
+                    #ExperienceTrue .expTrue_head .dashed_line02 {
+                        left: -20px;
+                        top: -20px;
+                    }
+                    #ExperienceTrue .expT_content {
+                        padding-bottom: 0rem;
+                    }
+                    /* #qualityWork #v-pills-tab_category {
+                        display: contents;
+                    } */
+                    /* //how it works new starts */
+                    #howItWorks .howitStep.step01 .hIWstepLeftCover,
+                    #howItWorks .howitStep.step03 .hIWstepLeftCover {
+                        justify-content: center;
+                    }
+                    #howItWorks .howitStep.step02 .hIWstepRightCover,
+                    #howItWorks .howitStep.step04 .hIWstepRightCover {
+                        justify-content: center;
+                    }
+                    #howItWorks .howitStep.step02 .hIWstepLeftCover,
+                    #howItWorks .howitStep.step04 .hIWstepLeftCover {
+                        text-align: left;
+                    }
+                    #howItWorks .howitStep.step02 .step_card,
+                    #howItWorks .howitStep.step04 .step_card {
+                        float: none;
+                    }
+                    #howItWorks .row.howitStep .step_card {
+                        margin: 0;
+                        margin-bottom: 2rem;
+                    }
+                    #howItWorks .howitStep>div {
+                        margin: 0 auto !important;
+                        justify-content: center;
+                        align-items: center;
+                        align-content: center;
+                        justify-items: center;
+                        display: flex;
+                    }
+                    #howItWorks .workflow_line {
+                        max-width: 3px;
+                        top: 10%;
+                    }
+                    #howItWorks .howitStep.step02>div:first-child {
+                        order: 1;
+                    }
+                    #howItWorks .howitStep.step04>div:first-child {
+                        order: 1;
+                    }
+                    #howItWorks .howitStep>div {
+                        border: none !important;
+                    }
+                    #howItWorks .howitStep:hover>div {
+                        border: none !important;
+                    }
+                    /* //how it works new ends */
+                    #seeMoreWork #v-pills-tab_seeMoreWork {
+                        padding: 0rem 0;
+                    }
+                    #seeMoreWork #v-pills-tabContent {
+                        margin-top: 0rem;
+                    }
+                    #seeMoreWork .my-column {
+                        -ms-flex: 50%;
+                        flex: 50%;
+                        max-width: 50%;
+                    }
+                    .test_item_left .triangle02 {
+                        right: 95px;
+                        top: 100px;
+                    }
+                    #seeMoreWork #v-pills-tab_seeMoreWork .nav-link.active,
+                    #seeMoreWork #v-pills-tab_seeMoreWork .show>.nav-link {
+                        width: unset;
+                        max-width: unset;
+                    }
+                    /* //Portfolio Page */
+                    #Brands.portfolio_categorized .brands_content_outer.portfolio_content .brands_content {
+                        padding: 2rem 3rem !important;
+                    }
+                    .featuredUI .container .row>div:first-child {
+                        order: 2;
+                    }
+                    .featuredUI .container .row>div:last-child {
+                        order: 1;
+                    }
+                    #featuredUI .featured_left {
+                        padding: 0 0 3rem 0;
+                    }
+                    .featured_left.featuredweb_left {
+                        padding: 0rem 0 3rem 0;
+                    }
+                    /* //Portfolio Page */
+                    /* //common */
+                    #Banner .banner_inner .dots02 {
+                        z-index: 5;
+                    }
+                    #Banner .header_right_imgcover img {
+                        width: 100% !important;
+                        position: relative !important;
+                        max-width: 700px !important;
+                        right: 0px !important;
+                        top: -15px !important;
+                        transform: scale(1.05) !important;
+                    }
+                    #footer {
+                        padding: 5rem 0 1rem 0 !important;
+                    }
+                    /* //common */
+                    /* //Contact Us Page */
+                    #Banner.contactus_page .header_right_imgcover img {
+                        transform: scale(1.2) !important;
+                    }
+                    .contact_wrp>.row>div {
+                        padding-right: 0px;
+                    }
+                    .working-hours .row.border-right {
+                        border-right: 0 !important;
+                        border-bottom: 1px solid #dee2e6 !important;
+                    }
+                    .contact_us_social_icon.qrcode_box {
+                        min-height: 102px;
+                    }
+                    .contact_us_social_icon .flip-box-back.qrcode_back {
+                        padding: 5px;
+                    }
+                    .contact_us_social_icon .flip-box-back.qrcode_back img.WAqrcode {
+                        max-width: 90px;
+                    }
+                    /* //Contact Us Page */
+                    /* //Services Page */
+                    #exlporeServices {
+                        padding: 1rem 0 2.5rem 0;
+                    }
+                    #exlporeServices .expSbox3 {
+                        padding: 0 0rem;
+                    }
+                    /* //Services Page Ends*/
+                    .expSbox2 .btn_cover {
+                        display: none;
+                    }
+                    .serviceOrder2 {
+                        order: 2 !important;
+                    }
+                    .serviceOrder1 {
+                        order: 1 !important;
+                    }
+                    .serviceOrder3 {
+                        order: 3 !important;
+                    }
+                    /* //Services Page */
+                }
+                
+                @media only screen and (max-width: 567px) {
+                    #Banner .banner_inner {
+                        height: 680px;
+                    }
+                    #Brands {
+                        padding: 3rem 0 2rem 0;
+                    }
+                    #Banner .banner_inner .ellipse01 {
+                        max-width: 40px;
+                    }
+                    #Banner .banner_inner .dots01,
+                    #Banner .banner_inner .dots02 {
+                        max-width: 80px;
+                    }
+                    #Brands .brands_content {
+                        padding: 2rem 0.5rem;
+                    }
+                    #Banner.home_page .header_right_imgcover img {
+                        width: 100% !important;
+                        position: relative !important;
+                        max-width: 700px !important;
+                        right: 0px !important;
+                        transform: scale(1.1) !important;
+                        top: 25px !important;
+                        margin-bottom: 2rem;
+                    }
+                    #ourServices .ourService_outer .service_col_1 {
+                        padding: 0rem 0rem;
+                    }
+                    #ourServices .ourService_outer .service_col_2 {
+                        padding: 0% 0rem;
+                    }
+                    .expT_content .expT_box_common h3 {
+                        font-size: 35px;
+                    }
+                    #joinUs {
+                        padding: 2.5rem 0;
+                    }
+                    #joinUs .btn_hireus,
+                    #joinUs .btnGetfreedemo {
+                        margin-bottom: 2rem;
+                    }
+                    .test_item_left .triangle02 {
+                        right: 100px;
+                        top: 100px;
+                    }
+                    #Brands .brands-carousel .owl-nav .owl-next {
+                        right: -45px;
+                        padding: 0 12px !important;
+                    }
+                    #Brands .brands-carousel .owl-nav .owl-prev {
+                        left: -45px;
+                        padding: 0 12px !important;
+                    }
+                    .testimonial_content {
+                        padding: 1rem 0rem;
+                    }
+                    .testimonial-carousel .item .container .row>div {
+                        padding: 0;
+                    }
+                    /* //Portfolio Page */
+                    #Brands.portfolio_categorized li.nav-item:last-child {
+                        padding-bottom: 1rem;
+                    }
+                    #choosePack .choosepack_head {
+                        overflow: hidden;
+                    }
+                    #choosePack .choosepack_head>img {
+                        top: 0px;
+                    }
+                    #choosePack .dashed_line01 {
+                        right: 0px;
+                    }
+                    /* //Portfolio Page */
+                    /* //Contact US Page */
+                    #SubscribeNEW .row.subscribe_bg>div:last-child {
+                        padding-left: 0 !important;
+                    }
+                    #SubscribeNEW .subscribe_cover input {
+                        display: inline-block;
+                        position: relative;
+                        width: 100%;
+                        height: 54px;
+                        padding: 14px 8px;
+                        padding-left: 14px;
+                    }
+                    /* //Contact US Page */
+                    /* //Services Page */
+                    #serviceWeOffer .serviceWe_left p {
+                        padding: 0 1rem;
+                    }
+                    .RotateS_cover {
+                        padding: 2.5rem 0 3rem 0;
+                    }
+                    #rotatescroll .overlay {
+                        transform: scale(1.0);
+                    }
+                    #rotatescroll .viewport {
+                        transform: scale(1.0);
+                    }
+                    #rotatescroll .thumb {
+                        /* display: none; */
+                        transform: scale(0.8);
+                    }
+                    /* //Services Page */
+                    /* //Sub Services Page */
+                    #Banner.sub_services_header {
+                        padding-top: 90px;
+                    }
+                    /* //Sub Services Page */
+                }
+                
+                @media only screen and (max-width: 477px) {
+                    #Banner .banner_inner p.banner_inner_parah {
+                        /* padding: 18px 55px 30px 0px; */
+                        padding: 18px 10px 10px 0px;
+                    }
+                    #Banner .banner_inner .dots02 {
+                        position: absolute;
+                        bottom: -11%;
+                        left: -28%;
+                        z-index: 2;
+                        animation: unset;
+                    }
+                    #ourServices .service_col_content {
+                        padding: 0% 1rem 0px;
+                    }
+                    #howItWorks .card-coin {
+                        margin-top: 65px;
+                        min-height: 340px;
+                    }
+                    #joinUs .btn_hireus {
+                        margin: 0px auto;
+                        margin-bottom: 2rem;
+                    }
+                    .test_item_left .triangle02 {
+                        right: 45px;
+                        top: 125px;
+                    }
+                    .testimonial-carousel .item .testimonial_content .more {
+                        float: unset;
+                    }
+                    /* //Portfolio Page */
+                    #Banner.portfolio_page .banner_inner {
+                        height: 415px;
+                    }
+                    #Brands.portfolio_categorized ul#pills-tab_PC {
+                        display: grid;
+                        text-align: center;
+                    }
+                    #Brands.portfolio_categorized .brands_content_outer {
+                        padding: 0rem 0;
+                    }
+                    .subscribe_cover input {
+                        padding: 10px 10px;
+                    }
+                    .subscribe_cover .btn_getfreedemo {
+                        padding: 10px 10px;
+                    }
+                    #footer {
+                        padding: 3rem 0 1rem 0;
+                    }
+                    /* //Portfolio Page */
+                    /* //Pricing  Page Starts */
+                    #choosePack>div.container-fluid {
+                        padding: 0;
+                    }
+                    #choosePack {
+                        padding: 1rem 0 0rem 0;
+                    }
+                    .choosepack_box>img {
+                        width: 100%;
+                        max-width: 130px;
+                    }
+                    .choosepack_box .pack_details {
+                        padding: 0 1rem 1rem 1.4rem;
+                    }
+                    #Subscribe {
+                        padding: 1.5rem 0 2.5rem 0;
+                    }
+                    /* //Pricing  Page Ends*/
+                    /* //FAQs  Page Starts*/
+                    #Banner.faq_page .banner_inner {
+                        height: 300px;
+                    }
+                    div#accordion>.row>div {
+                        padding: 0;
+                    }
+                    #toSetup .btn_cover .btn_hireus {
+                        margin-right: 1rem;
+                        margin: 1rem;
+                    }
+                    /* //FAQs  Page Ends*/
+                    /* //Services Page Starts*/
+                    .serviceWe_right {
+                        height: 210px;
+                        background-size: 100%;
+                    }
+                    #exlporeServices .expSbox3 {
+                        padding: 0 0rem;
+                    }
+                    /* //Services Page Ends*/
+                    /* //ContactUs Page Starts*/
+                    #Contactus .contact_left .address_box ul {
+                        padding-left: 0.5rem;
+                    }
+                    /* //ContactUs Page Ends*/
+                }
+                
+                @media only screen and (max-width: 360px) {
+                    #Contactus>div>.row,
+                    #Contactus>div>.row>div {
+                        padding: 0 !important;
+                    }
+                    #Contactus .contact_left .address_box {
+                        padding-left: 0.8rem;
+                    }
+                    #Contactus .contact_left .address_box ul {
+                        padding-left: 0rem;
+                    }
+                }
